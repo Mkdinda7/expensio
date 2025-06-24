@@ -4,7 +4,6 @@ import { resetOTP, verifyOtp } from "../../../Api/functions/authFunctions";
 import { toast } from "react-toastify";
 import bgImage from "./../../../assets/img/AuthIcon/Group12.jpg";
 import envalop from "./../../../assets/img/AuthIcon/envalop.png";
-import "./VerifyEmail.css";
 
 const VerifyEmail = () => {
   const [otp, setOtp] = useState(["", "", "", ""]);
